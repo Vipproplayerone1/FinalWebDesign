@@ -75,31 +75,35 @@
 
 ## Wireframe Screens
 
-### Screen 1:
-- [Description of Screen 1]
+### Screen 1 Home Page:
+![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/1.png)
 
-### Screen 2:
-- [Description of Screen 2]
+### Screen 2 Order:
+![Order](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/2.png)
 
-### Screen 3:
-- [Description of Screen 3]
+### Screen 3 Contact:
+![Contact](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/3.png)
 
-### Screen 4:
-- [Description of Screen 4]
+### Screen 4 Infor Product:
+![Infor Product](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/4.png)
 
-### Screen 5:
-- [Description of Screen 5]
+### Screen 5 News:
+![News](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/5.png)
 
-### Screen 6:
-- [Description of Screen 6]
+### Screen 6 Cart:
+![Cart](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/6.png)
 
-### Screen 7:
-- [Description of Screen 7]
+### Screen 7 Login:
+![Login](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/7.png)
 
-### Screen 8:
-- [Description of Screen 8]
+### Screen 8 Register:
+![Register](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/8.png)
+
+### Screen 9  Forgot Pass:
+![Forgot Pass](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/9.png)
 
 
 ## Database Schema
 
-- [Add your database schema details here]
+![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/DB_schema-images-0.jpg)
+![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/DB_schema-images-1.jpg)
