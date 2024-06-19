@@ -220,3 +220,7 @@
 
 ![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/DB_schema-images-0.jpg)
 ![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/DB_schema-images-1.jpg)
+
+## Google LightHouse
+
+![Google LightHouse](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/GGLightHouse.png)
