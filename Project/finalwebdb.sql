@@ -68,12 +68,12 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`id`, `tensp`, `img`, `dongia`, `soluong`, `thanhtien`, `idbill`) VALUES
-(11, 'Áo Khoác Mùa Đông Nam ', 'aokhoacmuadong.jpg', 300000, 8, 2400000, 10),
-(12, 'Áo Sơ Mi Trắng Nữ ', 'short jean.jfif', 100000, 1, 100000, 11),
-(13, 'Áo Sơ Mi Trắng Nữ ', 'short jean.jfif', 100000, 1, 100000, 12),
-(14, 'Áo Sơ Mi Trắng Nữ ', 'short jean.jfif', 100000, 2, 200000, 13),
-(15, 'Áo Sơ Mi Trắng Nữ ', 'short jean.jfif', 100000, 1, 100000, 14),
-(16, 'Áo Sơ Mi Trắng Nữ  ', 'short jean.jfif', 100000, 1, 100000, 15);
+(11, 'Mens Winter Jacket ', 'aokhoacmuadong.jpg', 300000, 8, 2400000, 10),
+(12, 'Womens White Shirt ', 'short jean.jfif', 100000, 1, 100000, 11),
+(13, 'Womens White Shirt ', 'short jean.jfif', 100000, 1, 100000, 12),
+(14, 'Womens White Shirt ', 'short jean.jfif', 100000, 2, 200000, 13),
+(15, 'Womens White Shirt ', 'short jean.jfif', 100000, 1, 100000, 14),
+(16, 'Womens White Shirt  ', 'short jean.jfif', 100000, 1, 100000, 15);
 
 -- --------------------------------------------------------
 
@@ -120,10 +120,10 @@ CREATE TABLE `sanpham` (
 
 INSERT INTO `sanpham` (`masp`, `nhom_id`, `tensp`, `mota`, `soluong`, `dongia`, `dongiaold`, `img`, `enable`, `ghichu`) VALUES
 (1, '1', 'Mens Winter Jacket ', 'Genuine Winter Coat   ', 10, 300000, 350000, 'aokhoacmuadong.jpg', 1, 'Genuine Winter Coat   '),
-(2, '2', 'Womens White Shirt  ', 'Áo Sơ Mi Trắng Nữ Pro Vip Max  ', 5, 100000, 120000, 'short jean.jfif', 1, 'Áo Sơ Mi Trắng Nữ Pro Vip Max  '),
+(2, '2', 'Womens White Shirt  ', 'Pro Vip Max Womens White Shirt  ', 5, 100000, 120000, 'short jean.jfif', 1, 'Pro Vip Max Womens White Shirt  '),
 (3, '2', 'T-shirt  ', 'Fashionable Printed Short-Sleeved T-shirt for Women  ', 100, 500000, 540000, 'c22601915838fce7af790bcbfc2716dd.jpg', 1, 'Fashionable Printed Short-Sleeved T-shirt for Women  '),
 (4, '1', 'Mens Gray Jeans ', 'Mens Gray Jeans  ', 10, 250000, 300000, 'quanjeannam.jpg', 1, 'Mens Gray Jeans  '),
-(5, '1', 'Adidas Ultra Boost Shoes ', 'Giày Adidas Ultra Boots ', 4, 400000, 520000, 'hihi.jpg', 1, 'Giày Adidas Ultra Boots '),
+(5, '1', 'Adidas Ultra Boost Shoes ', 'Adidas Ultra Boost Shoes ', 4, 400000, 520000, 'hihi.jpg', 1, 'Adidas Ultra Boost Shoes '),
 (6, '1', 'Men T - shirt ', 'Men T - shirt ', 30, 20000, 250000, 'aothunnam.jpg', 1, 'Men T - shirt ');
 
 -- --------------------------------------------------------
