@@ -76,7 +76,7 @@
 ## Wireframe Screens
 
 ### Screen 1 Home Page:
-![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/1.png)
+![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/1.png)
 ## Features
 ## Header
 - Logo: Displays the website logo.
@@ -124,7 +124,7 @@
 
 
 ### Screen 2 Order:
-![Order](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/2.png)
+![Order](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/2.png)
 ## Features
 ## 1. Order Information
 - Display detailed information about the user's order.
@@ -134,7 +134,7 @@
 - Option to cancel the order.
 
 ### Screen 3 Contact:
-![Contact](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/3.png)
+![Contact](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/3.png)
 ## Features
 ## Contact Page
 - Enter Full Name
@@ -144,7 +144,7 @@
 - Submit Button
 
 ### Screen 4 Infor Product:
-![Infor Product](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/4.png)
+![Infor Product](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/4.png)
 ## Features
 ## Product Detail Page
 - Product Image: Displays the image of the product.
@@ -161,14 +161,14 @@
 - Add to Cart: Button to add similar products to the cart.
 
 ### Screen 5 News:
-![News](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/5.png)
+![News](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/5.png)
 ## Features
 ## News Page
 - News List: Displays news articles in various categories with images, titles, authors, publication dates, and summary content.
 - News Details
 
 ### Screen 6 Cart:
-![Cart](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/6.png)
+![Cart](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/6.png)
 ## Features
 ## Cart
 - Shipping Information: A form for users to enter shipping details such as full name, address, phone number, and email.
@@ -180,7 +180,7 @@
   - Continue Shopping: Returns to the homepage to continue shopping.
 
 ### Screen 7 Login:
-![Login](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/7.png)
+![Login](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/7.png)
 ## Features
 ## Login Form
 - Login Title: Displays the title "Log in".
@@ -193,7 +193,7 @@
 - Return to Homepage: Link for users to return to the homepage.
 
 ### Screen 8 Register:
-![Register](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/8.png)
+![Register](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/8.png)
 ## Features
 ## Registration Form
 - Registration Title: Displays the title "Register".
@@ -207,7 +207,7 @@
 - Return to Homepage: Link for users to return to the homepage.
 
 ### Screen 9  Forgot Pass:
-![Forgot Pass](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/9.png)
+![Forgot Pass](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/9.png)
 ## Features
 ## Forgot Password Form
 - Forgot Password Title: Displays the title "Forgot password".
@@ -218,8 +218,8 @@
 
 ## Database Schema
 
-![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/DB_schema-images-0.jpg)
-![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/update-readme/DB_schema-images-1.jpg)
+![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/DB_schema-images-0.jpg)
+![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/DB_schema-images-1.jpg)
 
 ## Google LightHouse
 
