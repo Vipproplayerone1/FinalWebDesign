@@ -1,4 +1,8 @@
 <?php
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -58,6 +62,7 @@ $row = mysqli_fetch_array($result);
                             <p class="detail-items__quantity-text">Quantity:</p>
                             <input class="detail-items__quantity-num" type="number" name="soluong" min="1" max="10" value="1">
                         </div>
+                        <input type="hidden" name="masp" value="<?php echo $row["masp"] ?>">
                         <input type="hidden" name="tensp" value="<?php echo $row["tensp"] ?>">
                         <input type="hidden" name="dongia" value="<?php echo $row["dongia"] ?>₫">
                         <input type="hidden" name="img" value="<?php echo $row["img"] ?>">
@@ -65,6 +70,7 @@ $row = mysqli_fetch_array($result);
                     </form>
                     <form action="cart.php" method="post" class="detail-items__btn">
                         <input type="hidden" name="soluong" value="1">
+                        <input type="hidden" name="masp" value="<?php echo $row["masp"] ?>">
                         <input type="hidden" name="tensp" value="<?php echo $row["tensp"] ?>">
                         <input type="hidden" name="dongia" value="<?php echo $row["dongia"] ?>₫">
                         <input type="hidden" name="img" value="<?php echo $row["img"] ?>">
@@ -90,5 +96,11 @@ $row = mysqli_fetch_array($result);
 .detail-items__btn-cart {
     margin-top: 10px;
 }
-
 </style>
+
+<?php
+if (isset($_SESSION['success'])) {
+    echo '<script>alert("' . $_SESSION['success'] . '");</script>';
+    unset($_SESSION['success']);
+}
+?>
