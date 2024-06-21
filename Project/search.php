@@ -15,10 +15,7 @@ $result = mysqli_query($mysqli, $sql);
 
 ?>
 
-<!-- Your HTML content here -->
-<div class="all-banner">
-    <img src="assets/img/all.jpg" alt="all-banner" class="all-banner__img">
-</div>
+
 <div class="all-product">
     <div class="grid wide">
         <h3 class="product__heading">Search keywords : <?php echo htmlspecialchars($tukhoa); ?> </h3>
