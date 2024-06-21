@@ -62,7 +62,7 @@
                                     <?PHP echo $row["ghichu"] ?>
                                 </td>
                                 <td>
-                                    <a class="link_admin link_admin-fix" href="suasanpham.php?masp=<?PHP echo $row["masp"] ?>" style="text-decoration: none">Fix</a>
+                                    <a class="link_admin link_admin-fix" href="suasanpham.php?masp=<?PHP echo $row["masp"] ?>" style="text-decoration: none">Edit</a>
                                     <a class="link_admin link_admin-delete" href="xoasanpham.php?masp=<?PHP echo $row["masp"] ?>" style="text-decoration: none">Delete</a>
                                 </td>
 

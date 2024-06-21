@@ -24,12 +24,12 @@ function delete($ten){
     $result = mysqli_query($this->conn, $sql);
 
    if($result) {
-    echo"<script>alert('xóa thành công')</script>";
+    echo"<script>alert('Deleted successfully')</script>";
     echo "<script>window.history.back()</script>";
 }
 else
 {
-    echo" <script>alert('lỗi')</script>";
+    echo" <script>alert('Error')</script>";
 
 }
 }
@@ -38,13 +38,13 @@ function insert(){
     VALUES ('".$this->tendangnhap."','".$this->matkhau."','".$this->hoten."','".$this->email."','".$this->enable."')";
     $result = mysqli_query($this->conn,$sql); // truy vấn
        if($result){
-        echo "<script>alert('thành công')</script>";
+        echo "<script>alert('Success')</script>";
         //trở về trang xem
         //header("locatin:takhoan.php");
         echo"<script>window.locaion='taikhoan.php'</script>";
        }
        else{
-           echo "<script>alert('lỗi')</script>";
+           echo "<script>alert('Error')</script>";
        } 
     return $result;
 
@@ -60,7 +60,7 @@ $sql = "UPDATE`taikhoan` SET
 $result = mysqli_query($this->conn,$sql);
 
 if ($result) {
-    echo "<script>alert(' Sửa Thành công!')</script>";
+    echo "<script>alert(' Edited successfully!')</script>";
     echo "<script>windown.location='taikhoan.php'</script>";
 }
 return $result;

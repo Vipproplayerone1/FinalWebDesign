@@ -50,11 +50,11 @@ class sanpham extends ketnoi{
      
     
     if($result){
-             echo "<script>alert('Thêm thành công')</script>";
+             echo "<script>alert('Added successfully')</script>";
              echo "<script> window.location ='sanpham.php' </script>";
     }
     else{
-        echo "<script> alert('Lỗi')</script>";
+        echo "<script> alert('Error')</script>";
     }
     
     }
@@ -79,11 +79,11 @@ class sanpham extends ketnoi{
             // unlink("./anh/".$this->tenanhcu);
         }
         if($result){
-                 echo "<script>alert('Sửa thành công')</script>";
+                 echo "<script>alert('Edited successfully')</script>";
                  echo "<script> window.location ='sanpham.php' </script>";
         }
         else{
-            echo "<script> alert('Lỗi')</script>";
+            echo "<script> alert('Error')</script>";
         }
     
     }
@@ -93,12 +93,12 @@ class sanpham extends ketnoi{
     $result = mysqli_query($this->conn, $sql);
 
     if($result) {
-        echo"<script>alert('xóa thành công')</script>";
+        echo"<script>alert('Deleted successfully')</script>";
         echo "<script>window.history.back()</script>";
     }
     else
     {
-        echo" <script>alert('lỗi')</script>";
+        echo" <script>alert('Error')</script>";
     
     }
     
@@ -115,11 +115,11 @@ class sanpham extends ketnoi{
         VALUES ('".$this->id."','".$this->tennhom."','".$this->ghichu."')";
         $result = mysqli_query($this->conn, $sql);
         if($result){
-           echo "<script>alert('Thêm thành công')</script>";
+           echo "<script>alert('Added successfully')</script>";
            echo "<script>window.location = 'sanpham_nhom.php'</script>";
         }
         else{
-           echo "<script>alert('Lỗi')</script>";
+           echo "<script>alert('Error')</script>";
         }
     }
     function hienthiid($id){
@@ -135,23 +135,23 @@ class sanpham extends ketnoi{
         WHERE id = '".$this->id."'";
         $result = mysqli_query($this->conn, $sql);
         if($result){
-                 echo "<script>alert('Sửa thành công')</script>";
+                 echo "<script>alert('Edited successfully')</script>";
                  echo "<script> window.location ='sanpham_nhom.php' </script>";
         }
         else{
-            echo "<script> alert('Lỗi')</script>";
+            echo "<script> alert('Error')</script>";
         }
     }
     function delete($id){
         $sql = "DELETE FROM `sanpham_nhom` WHERE id = '$id'";
         $result = mysqli_query($this->conn, $sql);
         if($result){
-            echo "<script> alert('Xóa thành công') </script>";
+            echo "<script> alert('Deleted successfully') </script>";
             echo "<script> window.location = 'sanpham_nhom.php' </script>";
         
         }
         else{
-            echo "<script> alert('Lỗi') </script>";
+            echo "<script> alert('Error') </script>";
         
         }
     

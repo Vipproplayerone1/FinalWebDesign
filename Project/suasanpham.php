@@ -20,7 +20,7 @@
     }
     ?>
     <div class="container">
-        <h2>Sửa Sản Phẩm</h2>
+        <h2>Edit</h2>
         <form action="" method="POST" enctype="multipart/form-data">
             
             <div class="form-group">

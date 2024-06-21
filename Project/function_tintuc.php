@@ -47,10 +47,10 @@ class tintuc extends ketnoi {
             $sql = "UPDATE `tintuc` SET `img` = '$filename' WHERE `tentintuc` = '".$this->tentintuc."'";
             $result = mysqli_query($this->conn, $sql);    
             if($result){
-                    echo "<script>alert('Thêm thành công')</script>";
+                    echo "<script>alert('Added successfully')</script>";
                     echo "<script> window.location ='tintuc.php' </script>";
             } else{
-                echo "<script> alert('Lỗi')</script>";
+                echo "<script> alert('Error')</script>";
             }
         }    
     }
@@ -67,11 +67,11 @@ class nhomtintuc extends ketnoi {
         VALUES ('".$this->id."','".$this->tennhom."','".$this->ghichu."')";
         $result = mysqli_query($this->conn, $sql);
         if($result){
-            echo "<script>alert('Thêm thành công')</script>";
+            echo "<script>alert('Add successfully')</script>";
             echo "<script>window.location = 'tintuc_nhom.php'</script>";
         }
         else{
-            echo "<script>alert('Lỗi')</script>";
+            echo "<script>alert('Error')</script>";
         }
     }
     
@@ -95,11 +95,11 @@ class nhomtintuc extends ketnoi {
         WHERE id = '".$this->id."'";
         $result = mysqli_query($this->conn, $sql);
         if($result){
-                    echo "<script>alert('Sửa thành công')</script>";
+                    echo "<script>alert('Edited successfully')</script>";
                     echo "<script> window.location ='tintuc_nhom.php' </script>";
         }
         else{
-            echo "<script> alert('Lỗi')</script>";
+            echo "<script> alert('Error')</script>";
         }
     }
     
@@ -107,12 +107,12 @@ class nhomtintuc extends ketnoi {
         $sql = "DELETE FROM `tintuc_nhom` WHERE id = '$id'";
         $result = mysqli_query($this->conn, $sql);
         if($result){
-            echo "<script> alert('Xóa thành công') </script>";
+            echo "<script> alert('Deleted successfully') </script>";
             echo "<script> window.location = 'tintuc_nhom.php' </script>";
         
         }
         else{
-            echo "<script> alert('Lỗi') </script>";
+            echo "<script> alert('Error') </script>";
         
         }
     
