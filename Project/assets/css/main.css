@@ -1471,3 +1471,26 @@
     border: none;
     cursor: pointer;
 }
+
+
+
+.product-img .owl-nav {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-img .owl-nav button{
+    position:relative;
+    z-index:3;
+    font-size: 80px!important;
+    width:60px;
+    line-height:100%!important;
+}
+
+.product-img .owl-nav button.disabled{
+    visibility: hidden;
+}

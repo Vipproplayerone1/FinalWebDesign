@@ -26,8 +26,25 @@ $row = mysqli_fetch_array($result);
         <div class="row">
             <div class="col l-6">
                 <div class="detail-items">
-                    <img src="./upload/<?php echo $row["img"] ?>" alt="" class="detail-items__img">
+                    <div class="product-img owl-carousel">
+                        <img src="./upload/<?php echo $row["img"] ?>" alt="" class="detail-items__img" data-hash="1">
+                        <img src="https://res.cloudinary.com/dlpm1u3li/image/upload/v1719498331/quanlysach/aohoodiecinder_b89sen.webp" alt="" class="detail-items__img"
+                            data-hash="2">
+                        <img src="https://res.cloudinary.com/dlpm1u3li/image/upload/v1719498348/quanlysach/aosweaterbaguette_ql7y0w.webp" alt="" class="detail-items__img" data-hash="3">
+                        <img src="https://res.cloudinary.com/dlpm1u3li/image/upload/v1719498333/quanlysach/aohoodie_zrxcjw.jpg" alt="" class="detail-items__img" data-hash="4">
+                        <img src="https://res.cloudinary.com/dlpm1u3li/image/upload/v1719498525/quanlysach/bodongunam_gopsnx.webp" alt="" class="detail-items__img" data-hash="5">
+                    </div>
                 </div>
+                <script>
+                jQuery(document).ready(function() {
+                    const owl = $(".product-img")
+                    owl.owlCarousel({
+                        items: 1,
+                        nav: true
+                    });
+                    
+                })
+                </script>
             </div>
             <div class="col l-6">
                 <div class="detail-items">
@@ -50,17 +67,20 @@ $row = mysqli_fetch_array($result);
                             <img src="assets/img/img_sup6.jpg" alt="" class="detail-items__support-gr-img">
                             <div class="detail-items__support-gr-info">
                                 <h3 class="detail-items__support-gr-title">Free exchange and repair</h3>
-                                <p class="detail-items__support-gr-msg">Exchange within 30 days from the date of purchase, support free modifications</p>
+                                <p class="detail-items__support-gr-msg">Exchange within 30 days from the date of
+                                    purchase, support free modifications</p>
                             </div>
                         </div>
                     </div>
                     <div class="detail-items__warehouse">
-                        <p class="detail-items__warehouse-remaining"><strong>There is</strong>: <?php echo $row["soluong"] ?> unit</p>
+                        <p class="detail-items__warehouse-remaining"><strong>There is</strong>:
+                            <?php echo $row["soluong"] ?> unit</p>
                     </div>
                     <form action="cart.php" method="post" class="detail-items__quantity">
                         <div class="detail-items__quantity-group">
                             <p class="detail-items__quantity-text">Quantity:</p>
-                            <input class="detail-items__quantity-num" type="number" name="soluong" min="1" max="10" value="1">
+                            <input class="detail-items__quantity-num" type="number" name="soluong" min="1" max="10"
+                                value="1">
                         </div>
                         <input type="hidden" name="masp" value="<?php echo $row["masp"] ?>">
                         <input type="hidden" name="tensp" value="<?php echo $row["tensp"] ?>">
