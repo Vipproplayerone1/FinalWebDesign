@@ -1,5 +1,5 @@
-# Project Documentation
-# Project Overview
+### Project Documentation
+### Project Overview
 **Website Ecommerce Selling Clothes using PHP XAMPP**
 
 ## Links
@@ -8,11 +8,17 @@
 - **Wireframe:** [Project Wireframe](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/wireframe.md)
 - **Database Schema:** [Database Schema](https://drive.google.com/file/d/1KQXDzVuc4rPpgBmzdoz0dR_Pbx7_cFjE/view)
 
+### How to run this Project
+1. **Install Xampp**
+2. **Import Database to PhPMyAdmin**
+3. **Add Project to htdocs in xampp folder**
+4. **Run MySQL and Apache in Xampp**
+5. **Access localhost in browser and select all.php**
 
-## Planning: 3 weeks
 
-### Week 1: Basic Setup and Core Features
-#### Tasks:
+### Planning: 3 weeks
+## Week 1: Basic Setup and Core Features
+## Tasks:
 1. **Database Setup and Connection:**
    - `ketnoi.php`: Create and test database connection.
 
@@ -34,8 +40,8 @@
    - `suasanpham.php`: Create product edit function.
    - `xoasanpham.php`: Create product delete function.
 
-### Week 2: Shopping Cart and Checkout Functions
-#### Tasks:
+## Week 2: Shopping Cart and Checkout Functions
+## Tasks:
 1. **Shopping Cart Management:**
    - `giohang.php`: Create and display user shopping cart.
    - `function_giohang.php`: Create functions to handle cart operations (add, edit, delete products).
@@ -53,8 +59,8 @@
    - `function_lienhe.php`: Create contact handling functions.
    - `xoalienhe.php`: Create function to delete contact.
 
-### Week 3: News and Product Group Management
-#### Tasks:
+## Week 3: News and Product Group Management
+## Tasks:
 1. **News Management:**
    - `themtintuc.php`: Create function to add new news.
    - `tintuc.php`: Display news list.
@@ -75,37 +81,36 @@
    - `info_product.php`: Display detailed product information.
 
 
-## Wireframe Screens
+### Screens
 
-### Screen 1 Home Page:
+## Screen 1 Home Page:
 ![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/1.png)
 
-### Screen 2 Order:
+## Screen 2 Order:
 ![Order](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/2.png)
 
-### Screen 3 Contact:
+## Screen 3 Contact:
 ![Contact](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/3.png)
 
-### Screen 4 Infor Product:
+## Screen 4 Infor Product:
 ![Infor Product](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/4.png)
 
-### Screen 5 News:
+## Screen 5 News:
 
-### Screen 6 Cart:
+## Screen 6 Cart:
 
-### Screen 7 Login:
+## Screen 7 Login:
 ![Login](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/7.png)
 
-### Screen 8 Register:
+## Screen 8 Register:
 ![Register](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/8.png)
 
-### Screen 9  Forgot Pass:
+## Screen 9  Forgot Pass:
 ![Forgot Pass](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/9.png)
 
-## Database Schema
+### Database Schema
 
-![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/DB_schema-images-0.jpg)
-![Home Page](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/DB_schema-images-1.jpg)
+![DB](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/DB_schema-images-0.png)
 
 ## Google LightHouse
 
