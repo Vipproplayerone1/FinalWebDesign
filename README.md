@@ -16,9 +16,10 @@
 5. **Access localhost in browser and select all.php**
 
 
-### Planning: 3 weeks
-## Week 1: Basic Setup and Core Features
-## Tasks:
+## Planning: 3 weeks
+
+### Week 1: Basic Setup and Core Features
+#### Tasks:
 1. **Database Setup and Connection:**
    - `ketnoi.php`: Create and test database connection.
 
@@ -96,8 +97,10 @@
 ![Infor Product](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/4.png)
 
 ## Screen 5 News:
+![News](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/5.png)
 
 ## Screen 6 Cart:
+![Cart](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/6.png)
 
 ## Screen 7 Login:
 ![Login](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/7.png)
