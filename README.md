@@ -16,9 +16,10 @@
 5. **Access localhost in browser and select all.php**
 
 
-### Planning: 3 weeks
-## Week 1: Basic Setup and Core Features
-## Tasks:
+## Planning: 3 weeks
+
+### Week 1: Basic Setup and Core Features
+#### Tasks:
 1. **Database Setup and Connection:**
    - `ketnoi.php`: Create and test database connection.
 
