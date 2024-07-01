@@ -1,7 +1,7 @@
 ### Project Documentation
 ### Project Overview
 - **Website Ecommerce Selling Clothes using PHP XAMPP**.
-- **SceenShot:** [ScreenShot](https://drive.google.com/file/d/1PcqFSAPeP5EuxbNCnSkQpA9LmFGRYZ1q/view?usp=sharing)
+- **Record:** [Record](https://drive.google.com/file/d/1PcqFSAPeP5EuxbNCnSkQpA9LmFGRYZ1q/view?usp=sharing)
 ## Links
 
 - **Xampp to connect MySql:** [Xampp MySql Connection](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download?use_mirror=udomain&viasf=1)
