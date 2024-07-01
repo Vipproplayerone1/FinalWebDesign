@@ -17,11 +17,6 @@
 ## Slideshow
 - Image Slideshow: Automatically displays advertisement images.
 
-## Support
-- Free Shipping: Free shipping for orders over 498K.
-- COD Payment: Cash on Delivery (COD) payment option.
-- VIP Customers: Promotions for VIP customers.
-- Warranty Support: Support for product exchange and repair.
 
 ## Hot Products
 - Product List: Displays hot products, including name, old price, new price, and image.
@@ -29,9 +24,6 @@
 
 ## New Products
 - New Product List: Displays new products with detailed information.
-
-## Discount Programs
-- Discounted Product List: Displays products with the same discount rate, including product information and price.
 
 ## Fashion News
 - News List: Displays fashion news articles with titles, authors, publication dates, and short content.
@@ -49,7 +41,7 @@
 ### Screen 2 Order:
 ![Order](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/2.png)
 ## Features
-## 1. Order Information
+# 1. Order Information
 - Display detailed information about the user's order.
 - Shipping status of the order.
 - Total amount of the order.
@@ -59,7 +51,7 @@
 ### Screen 3 Contact:
 ![Contact](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/3.png)
 ## Features
-## Contact Page
+# Contact Page
 - Enter Full Name
 - Enter Email
 - Enter Phone Number
@@ -69,7 +61,7 @@
 ### Screen 4 Infor Product:
 ![Infor Product](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/4.png)
 ## Features
-## Product Detail Page
+# Product Detail Page
 - Product Image: Displays the image of the product.
 - Product Name: Displays the name of the product.
 - Product Code: Displays the product code.
@@ -79,14 +71,14 @@
 - Order Form: Form for users to select the quantity and add the product to the cart.
 - Buy Now: Button for users to immediately purchase the product.
 
-## Similar Products
+# Similar Products
 - Product List: Displays similar products, including name, old price, new price, and image.
 - Add to Cart: Button to add similar products to the cart.
 
 ### Screen 5 News:
 ![News](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/5.png)
 ## Features
-## News Page
+# News Page
 - News List: Displays news articles in various categories with images, titles, authors, publication dates, and summary content.
 - News Details
 
@@ -94,7 +86,7 @@
 ### Screen 6 Login:
 ![Login](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/8.png)
 ## Features
-## Login Form
+# Login Form
 - Login Title: Displays the title "Log in".
 - Registration Link: Link for users to switch to the registration page if they don't have an account.
 - Enter Username: Input field for users to enter their username.
@@ -107,7 +99,7 @@
 ### Screen 7 Register:
 ![Register](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/6.png)
 ## Features
-## Registration Form
+# Registration Form
 - Registration Title: Displays the title "Register".
 - Login Link: Link for users to switch to the login page if they already have an account.
 - Enter Email: Input field for users to enter their email.
@@ -121,7 +113,7 @@
 ### Screen 8  Forgot Pass:
 ![Forgot Pass](https://github.com/Vipproplayerone1/FinalWebDesign/blob/main/wireframe/7.png)
 ## Features
-## Forgot Password Form
+# Forgot Password Form
 - Forgot Password Title: Displays the title "Forgot password".
 - Enter Email: Input field for users to enter their email to receive password recovery instructions.
 - Send Email Button: Button for users to click and submit the password recovery request form.
